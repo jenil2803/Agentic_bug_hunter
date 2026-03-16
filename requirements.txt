@@ -1,0 +1,21 @@
+# Core Dependencies
+pydantic>=2.0.0
+pydantic-ai
+python-dotenv
+loguru
+
+# LLM Providers
+huggingface-hub>=0.20.0
+groq
+ollama
+
+# Database & Networking
+chromadb
+httpx
+
+# File Processing
+pandas
+
+# NOTE: MCP Server is OPTIONAL (system works fine without it)
+# To enable MCP server support, install separately:
+# pip install fastmcp llama-index llama-index-embeddings-huggingface sentence-transformers
